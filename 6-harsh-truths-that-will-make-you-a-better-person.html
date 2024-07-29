@@ -20,6 +20,9 @@
     </style>
   </head>
   <body>
+<header>
+    <span id="year"></span>
+</header>
 <div class="center">
 <h1>6 Harsh Truths<h2>That Will Make You a Better Person</h2></h1>
 <p>
@@ -306,6 +309,8 @@ Jason <q>David Wong</q>Pargin is the Former Executive Editor at <a href=https://
 </p>
 
 </div>
-<!--<script src="index.js"></script> -->
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 </body>
 </html>
